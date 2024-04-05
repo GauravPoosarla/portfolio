@@ -1,0 +1,10 @@
+{
+  "theme_color": "#CCD6E0",
+  "background_color": "#F3F4F6",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Gaurav Poosarla",
+  "short_name": "Gaurav",
+  "description": "Gaurav is a software engineer"  
+}
