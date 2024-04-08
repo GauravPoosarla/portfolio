@@ -37,8 +37,8 @@ const About = () => {
       <br></br>
       {/* Display another paragraph about the user's interests and hobbies. */}
       <p>
-        Presently, I am a Software Engineer at Samsung, where I am an integral
-        part of the Order Fulfillment Team within the Samsung eCommerce
+        Presently, I am a software engineer at Samsung, where I am an integral
+        part of the order fulfillment team within the Samsung eCommerce
         division. My responsibilities predominantly revolve around backend
         technologies.
       </p>

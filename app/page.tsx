@@ -24,12 +24,12 @@ export default function Home() {
 
       {/* The Experience component displays work or education experience. */}
       <Experience />
-      
-      {/* The Skills component shows the skills of the author or user. */}
-      <Skills />
 
       {/* The Projects component displays information about projects. */}
       <Projects />
+
+      {/* The Skills component shows the skills of the author or user. */}
+      <Skills />
 
       {/* The Contact component allows users to get in touch. */}
       <Contact />
