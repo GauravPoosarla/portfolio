@@ -45,7 +45,7 @@ export const EXTRA_LINKS = {
 
 export const EXPERIENCES_DATA: any = [
   {
-    title: "Analyst",
+    title: "Software Engineer-1 @ Goldman Sachs",
     location: "Bangalore, IN",
     description: "Working in the Securities lending team of Global Banking & Markets",
     icon: React.createElement(LuGraduationCap),
