@@ -45,6 +45,22 @@ export const EXTRA_LINKS = {
 
 export const EXPERIENCES_DATA: any = [
   {
+    title: "Analyst",
+    location: "Bangalore, IN",
+    description: "Working in the Securities lending team of Global Banking & Markets",
+    icon: React.createElement(LuGraduationCap),
+    isGoldman: true,
+    date: "Oct 2025 - present"
+  },
+  {
+    title: "Software Engineer-1 @ Samsung",
+    location: "Chennai, IN",
+    description:
+      "Worked in the Order fulfillment team of D2C Samsung India E-commerce",
+    icon: React.createElement(SiSamsung), 
+    date: "Aug 2023 - Oct 2025",
+  },
+  {
     title: "Software Engineer Intern @ McKinsey & Company",
     location: "Bangalore, IN",
     description:
@@ -52,15 +68,6 @@ export const EXPERIENCES_DATA: any = [
     isMcKinsey: true,
     icon: React.createElement(LuGraduationCap),
     date: "Jan 2023 - Jul 2023",
-  },
-  {
-    title: "Software Engineer-1 @ Samsung",
-    location: "Chennai, IN",
-    description:
-      "Working in the Order fulfillment team of D2C Samsung India E-commerce",
-    isMcKinsey: false,
-    icon: React.createElement(SiSamsung), 
-    date: "Aug 2023 - present",
   }
 ] as const;
 

@@ -15,6 +15,7 @@ import { useSectionInView } from "@/lib/hooks";
 import "react-vertical-timeline-component/style.min.css";
 import { useThemeContext } from "@/context/theme-context";
 import mckinseyImg from "@/public/mckinsey.png";
+import goldmanImg from "@/public/goldman.png";
 import Image from "next/image";
 
 // Define the Experience component.
@@ -65,9 +66,15 @@ const Experience = () => {
               icon={
                 experience.isMcKinsey ? (
                   <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-                  <div style={{ width: 35, height: 35, marginTop: "28%"}}>
-                    <Image src={mckinseyImg} alt="McKinsey & Company" />
+                    <div style={{ width: 35, height: 35, marginTop: "28%"}}>
+                      <Image src={mckinseyImg} alt="McKinsey & Company" />
+                    </div>
                   </div>
+                ) : experience.isGoldman ? (
+                  <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                    <div style={{ width: 35, height: 35, marginTop: "28%"}}>
+                      <Image src={goldmanImg} alt="Goldman Sachs" />
+                    </div>
                   </div>
                 ) : (
                   experience.icon
