@@ -28,19 +28,25 @@ const About = () => {
       {/* Display a paragraph with information about the user's background and interests. */}
       <p className="mb-3">
         I'm a dedicated software engineer with a passion for building
-        user-friendly web applications. As a recent graduate of VIT Vellore
-        University, I've gained a solid foundation in software development
-        principles and programming skills. During my internship at McKinsey &
-        Company, I worked on various web technologies such as React and Node,
-        contributing to the development of several projects.
+        user-friendly and scalable web applications. I graduated from VIT Vellore,
+        where I built a strong foundation in software development and worked on
+        several impactful projects. During my internship at McKinsey & Company,
+        I gained hands-on experience in modern web technologies such as React and
+        Node.js, contributing to multiple client-focused solutions.
       </p>
-      <br></br>
-      {/* Display another paragraph about the user's interests and hobbies. */}
+      <br />
+      <p className="mb-3">
+        After graduation, I joined Samsung as a software engineer, where I worked
+        in the eCommerce division as part of the Order Fulfillment team. My role
+        primarily focused on backend engineering, building reliable and efficient 
+        systems at scale.
+      </p>
+      <br />
       <p>
-        Presently, I am a software engineer at Samsung, where I am an integral
-        part of the order fulfillment team within the Samsung eCommerce
-        division. My responsibilities predominantly revolve around backend
-        technologies.
+        Currently, I am part of the Securities Lending engineering team at
+        Goldman Sachs. Here, I work on high-performance distributed systems,
+        leveraging technologies like Kafka, Spring Boot, and scalable backend
+        architectures to build resilient pre and post-trade and platform components.
       </p>
     </motion.section>
   );
