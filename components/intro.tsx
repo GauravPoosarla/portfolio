@@ -69,7 +69,7 @@ const Intro = () => {
       >
         <b className="font-bold">Hi, I&apos;m {OWNER_NAME.split(" ")[0]}.</b>{" "}
         I&apos;m a <b className="font-bold">Software Engineer</b>.{" "}
-        Currently working at Samsung in the D2C Order Fulfillment Team.{" "}
+        Currently working at <b className="font-bold">Goldman Sachs</b> in the Global Banking & Markets division.{" "}
       </motion.h2>
 
       <motion.div
